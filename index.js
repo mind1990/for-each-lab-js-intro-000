@@ -11,3 +11,7 @@ function iterate(callback) {
   myName.forEach(callback);
   return myName;
 };
+
+function toDoArray(array, callback) {
+  array.forEach(callback)
+};
