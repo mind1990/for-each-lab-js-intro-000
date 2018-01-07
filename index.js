@@ -5,3 +5,9 @@ function iterativeLog(array) {
     index++;
   });
 };
+
+function iterate(callback) {
+  var myName = ['Tirapat', 'Numsin'];
+  myName.forEach(callback);
+  return myName;
+};
